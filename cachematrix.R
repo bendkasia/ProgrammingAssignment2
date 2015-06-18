@@ -3,8 +3,9 @@
 
 
 ## This function creates a special "matrix" object that can cache its inverse.
-## Use a<-makeCacheMatrix(c(vector),nrow=,ncol=)
+## Use a<-makeCacheMatrix(matrix(c(vector),number of rows,number of cols))
 ## call cacheSolve(a)to retrieve inverse
+
 
 
 makeCacheMatrix <- function(x = matrix()) {
